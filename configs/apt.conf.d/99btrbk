@@ -1,0 +1,2 @@
+// snapshot the filesystem before installing packages
+DPkg::Pre-Install-Pkgs {"/usr/local/bin/btrbk snapshot -qp";};

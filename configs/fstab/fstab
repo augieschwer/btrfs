@@ -1,0 +1,28 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+# / was on /dev/sda2 during installation
+UUID=8884113b-f807-4ac6-a97a-948fe9eee833 /               btrfs   defaults,subvol=@ 0       0
+# /root
+UUID=8884113b-f807-4ac6-a97a-948fe9eee833 /root           btrfs   defaults,subvol=@root_user 0       0
+# /tmp
+UUID=8884113b-f807-4ac6-a97a-948fe9eee833 /tmp		  btrfs   defaults,subvol=@tmp	 0       0
+# /usr/local
+UUID=8884113b-f807-4ac6-a97a-948fe9eee833 /usr/local	  btrfs   defaults,subvol=@usr_local 0       0
+# /var
+UUID=8884113b-f807-4ac6-a97a-948fe9eee833 /var	 	  btrfs   defaults,subvol=@var 	0       0
+# /opt
+UUID=8884113b-f807-4ac6-a97a-948fe9eee833 /opt	 	  btrfs   defaults,subvol=@opt 	0       0
+# /boot/efi was on /dev/sda1 during installation
+UUID=67E3-17ED  /boot/efi       vfat    umask=0077      0       1
+# /home
+UUID=0786fd3e-4e4c-4113-858b-a7f53e676be9 /home           btrfs   defaults,compress=zstd,subvol=@home 0       0
+# swap
+UUID=8884113b-f807-4ac6-a97a-948fe9eee833 /swap	 	  btrfs   defaults,subvol=@swap 	0       0
+/swap/swapfile                                 none            swap    sw              0       0
+# backup
+UUID=4a25497c-50d9-4430-8207-286ed097620d /mnt/backup btrfs defaults,subvol=snapshots 0 0
