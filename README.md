@@ -15,13 +15,17 @@ https://christitus.com/btrfs-guide/
 
 https://archive.kernel.org/oldwiki/btrfs.wiki.kernel.org/index.php/SysadminGuide.html
 
+https://archive.kernel.org/oldwiki/btrfs.wiki.kernel.org/index.php/Incremental_Backup.html
+
 ## Tools
 
 ### Backup
 
 [btrbk](https://github.com/digint/btrbk)
 
-https://archive.kernel.org/oldwiki/btrfs.wiki.kernel.org/index.php/Incremental_Backup.html
+### Snapshots
+
+[httm](https://github.com/kimono-koans/httm)
 
 ### Maintenance
 
