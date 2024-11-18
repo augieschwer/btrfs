@@ -1,0 +1,4 @@
+/var/log/btrbk.log {
+	rotate 3
+	monthly
+}
