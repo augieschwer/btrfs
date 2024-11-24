@@ -31,6 +31,10 @@ https://archive.kernel.org/oldwiki/btrfs.wiki.kernel.org/index.php/Incremental_B
 
 [btrfsmaintenance](https://github.com/kdave/btrfsmaintenance)
 
+### Compression
+
+[compsize](https://github.com/kilobyte/compsize)
+
 ## Configurations
 
 [Configs](configs)
