@@ -14,7 +14,7 @@ UUID=8884113b-f807-4ac6-a97a-948fe9eee833 /tmp		  btrfs   defaults,subvol=@tmp	 
 # /usr/local
 UUID=8884113b-f807-4ac6-a97a-948fe9eee833 /usr/local	  btrfs   defaults,subvol=@usr_local 0       0
 # /var
-UUID=8884113b-f807-4ac6-a97a-948fe9eee833 /var	 	  btrfs   defaults,compress=zstd,subvol=@var 	0       0
+UUID=8884113b-f807-4ac6-a97a-948fe9eee833 /var	 	  btrfs   defaults,subvol=@var 	0       0
 # /opt
 UUID=8884113b-f807-4ac6-a97a-948fe9eee833 /opt	 	  btrfs   defaults,subvol=@opt 	0       0
 # /boot/efi was on /dev/sda1 during installation
