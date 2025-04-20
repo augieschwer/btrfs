@@ -38,3 +38,7 @@ https://archive.kernel.org/oldwiki/btrfs.wiki.kernel.org/index.php/Incremental_B
 ## Configurations
 
 [Configs](configs)
+
+## Presentations
+
+[Deschutes Tech Guild - BTRFS Lightning Talk](BTRFS Lightning Talk - DTG.pdf)
