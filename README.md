@@ -41,4 +41,4 @@ https://archive.kernel.org/oldwiki/btrfs.wiki.kernel.org/index.php/Incremental_B
 
 ## Presentations
 
-[Deschutes Tech Guild - BTRFS Lightning Talk](BTRFS Lightning Talk - DTG.pdf)
+* [Deschutes Tech Guild - BTRFS Lightning Talk](<BTRFS Lightning Talk - DTG.pdf>)
